@@ -1,16 +1,10 @@
 import React from "react";
-import { Link } from "gatsby";
-import Layout from "../components/Layout";
+import Layout from "../components/layout";
 
 export default function Home() {
   return (
     <Layout>
-      Hello World, It's Me!
-      <div>
-        <Link to="/blog">Blog page</Link>
-        <a href="/products">Products page</a>
-      </div>
-      <a href="https://www.gatsbyjs.org">Gatsby</a>
+      <h1>Welcome to GL Codeworks!</h1>
     </Layout>
   );
 }

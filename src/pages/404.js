@@ -1,7 +1,8 @@
 import React from "react";
+import Layout from "../components/layout";
 
-function Error() {
-  return <div>There is no page like this.</div>;
+function error() {
+  return <Layout>There is no page like this.</Layout>;
 }
 
-export default Error;
+export default error;

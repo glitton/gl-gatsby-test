@@ -1,15 +1,12 @@
 import React from "react";
-import { Link } from "gatsby";
-import Layout from "../components/Layout";
+import Layout from "../components/layout";
 
-function Products() {
+function products() {
   return (
-    <div>
-      <Layout />
+    <Layout>
       <h1>The products page</h1>
-      <Link to="/">Home</Link>
-    </div>
+    </Layout>
   );
 }
 
-export default Products;
+export default products;
